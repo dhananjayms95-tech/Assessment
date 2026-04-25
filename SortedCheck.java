@@ -6,7 +6,7 @@ public class SortedCheck {
 		int[] arr = {1,3,2};
 		boolean isSorted = true;
 		
-		for (int i=1; i<arr.length-1; i++) {
+		for (int i=0; i<arr.length-1; i++) {
 			if(arr[i] > arr[i+1]) {
 				isSorted = false;
 				break;
